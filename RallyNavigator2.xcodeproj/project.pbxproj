@@ -10,6 +10,7 @@
 		6386E8C928B230940095F5EE /* RallyTabView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6386E8C828B230940095F5EE /* RallyTabView.swift */; };
 		6386E8CB28B231C70095F5EE /* RallyAddView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6386E8CA28B231C70095F5EE /* RallyAddView.swift */; };
 		6386E8CD28B2337A0095F5EE /* SettingsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6386E8CC28B2337A0095F5EE /* SettingsView.swift */; };
+		6398228D28B2AE9500370270 /* RallyViewView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6398228C28B2AE9500370270 /* RallyViewView.swift */; };
 		63B047C828B1585D003082A3 /* RallyNavigator2App.swift in Sources */ = {isa = PBXBuildFile; fileRef = 63B047C728B1585D003082A3 /* RallyNavigator2App.swift */; };
 		63B047CA28B1585D003082A3 /* RallyListView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 63B047C928B1585D003082A3 /* RallyListView.swift */; };
 		63B047CC28B1585E003082A3 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 63B047CB28B1585E003082A3 /* Assets.xcassets */; };
@@ -26,6 +27,7 @@
 		6386E8C828B230940095F5EE /* RallyTabView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RallyTabView.swift; sourceTree = "<group>"; };
 		6386E8CA28B231C70095F5EE /* RallyAddView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RallyAddView.swift; sourceTree = "<group>"; };
 		6386E8CC28B2337A0095F5EE /* SettingsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SettingsView.swift; sourceTree = "<group>"; };
+		6398228C28B2AE9500370270 /* RallyViewView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RallyViewView.swift; sourceTree = "<group>"; };
 		63B047C428B1585D003082A3 /* RallyNavigator2.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = RallyNavigator2.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		63B047C728B1585D003082A3 /* RallyNavigator2App.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RallyNavigator2App.swift; sourceTree = "<group>"; };
 		63B047C928B1585D003082A3 /* RallyListView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RallyListView.swift; sourceTree = "<group>"; };
@@ -95,6 +97,7 @@
 				6386E8C828B230940095F5EE /* RallyTabView.swift */,
 				63B047C928B1585D003082A3 /* RallyListView.swift */,
 				6386E8CA28B231C70095F5EE /* RallyAddView.swift */,
+				6398228C28B2AE9500370270 /* RallyViewView.swift */,
 				6386E8CC28B2337A0095F5EE /* SettingsView.swift */,
 				63B047E028B15A30003082A3 /* RallyCardView.swift */,
 				63EA92AE28B175BF0062FF3D /* MapView.swift */,
@@ -209,6 +212,7 @@
 				63B047E128B15A30003082A3 /* RallyCardView.swift in Sources */,
 				63B047DD28B15968003082A3 /* DataService.swift in Sources */,
 				6386E8C928B230940095F5EE /* RallyTabView.swift in Sources */,
+				6398228D28B2AE9500370270 /* RallyViewView.swift in Sources */,
 				6386E8CB28B231C70095F5EE /* RallyAddView.swift in Sources */,
 				6386E8CD28B2337A0095F5EE /* SettingsView.swift in Sources */,
 				63B047CA28B1585D003082A3 /* RallyListView.swift in Sources */,
