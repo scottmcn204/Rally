@@ -1,0 +1,420 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 55;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		6386E8C928B230940095F5EE /* RallyTabView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6386E8C828B230940095F5EE /* RallyTabView.swift */; };
+		6386E8CB28B231C70095F5EE /* RallyAddView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6386E8CA28B231C70095F5EE /* RallyAddView.swift */; };
+		6386E8CD28B2337A0095F5EE /* SettingsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6386E8CC28B2337A0095F5EE /* SettingsView.swift */; };
+		63B047C828B1585D003082A3 /* RallyNavigator2App.swift in Sources */ = {isa = PBXBuildFile; fileRef = 63B047C728B1585D003082A3 /* RallyNavigator2App.swift */; };
+		63B047CA28B1585D003082A3 /* RallyListView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 63B047C928B1585D003082A3 /* RallyListView.swift */; };
+		63B047CC28B1585E003082A3 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 63B047CB28B1585E003082A3 /* Assets.xcassets */; };
+		63B047CF28B1585E003082A3 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 63B047CE28B1585E003082A3 /* Preview Assets.xcassets */; };
+		63B047DB28B158BD003082A3 /* data.json in Resources */ = {isa = PBXBuildFile; fileRef = 63B047DA28B158BC003082A3 /* data.json */; };
+		63B047DD28B15968003082A3 /* DataService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 63B047DC28B15968003082A3 /* DataService.swift */; };
+		63B047DF28B159AC003082A3 /* Rally.swift in Sources */ = {isa = PBXBuildFile; fileRef = 63B047DE28B159AB003082A3 /* Rally.swift */; };
+		63B047E128B15A30003082A3 /* RallyCardView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 63B047E028B15A30003082A3 /* RallyCardView.swift */; };
+		63EA92AD28B15B960062FF3D /* RallyModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 63EA92AC28B15B960062FF3D /* RallyModel.swift */; };
+		63EA92AF28B175BF0062FF3D /* MapView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 63EA92AE28B175BF0062FF3D /* MapView.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		6386E8C828B230940095F5EE /* RallyTabView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RallyTabView.swift; sourceTree = "<group>"; };
+		6386E8CA28B231C70095F5EE /* RallyAddView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RallyAddView.swift; sourceTree = "<group>"; };
+		6386E8CC28B2337A0095F5EE /* SettingsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SettingsView.swift; sourceTree = "<group>"; };
+		63B047C428B1585D003082A3 /* RallyNavigator2.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = RallyNavigator2.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		63B047C728B1585D003082A3 /* RallyNavigator2App.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RallyNavigator2App.swift; sourceTree = "<group>"; };
+		63B047C928B1585D003082A3 /* RallyListView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RallyListView.swift; sourceTree = "<group>"; };
+		63B047CB28B1585E003082A3 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		63B047CE28B1585E003082A3 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		63B047DA28B158BC003082A3 /* data.json */ = {isa = PBXFileReference; lastKnownFileType = text.json; path = data.json; sourceTree = "<group>"; };
+		63B047DC28B15968003082A3 /* DataService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DataService.swift; sourceTree = "<group>"; };
+		63B047DE28B159AB003082A3 /* Rally.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Rally.swift; sourceTree = "<group>"; };
+		63B047E028B15A30003082A3 /* RallyCardView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RallyCardView.swift; sourceTree = "<group>"; };
+		63EA92AC28B15B960062FF3D /* RallyModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RallyModel.swift; sourceTree = "<group>"; };
+		63EA92AE28B175BF0062FF3D /* MapView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MapView.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		63B047C128B1585D003082A3 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		63B047BB28B1585D003082A3 = {
+			isa = PBXGroup;
+			children = (
+				63B047C628B1585D003082A3 /* RallyNavigator2 */,
+				63B047C528B1585D003082A3 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		63B047C528B1585D003082A3 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				63B047C428B1585D003082A3 /* RallyNavigator2.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		63B047C628B1585D003082A3 /* RallyNavigator2 */ = {
+			isa = PBXGroup;
+			children = (
+				63B047C728B1585D003082A3 /* RallyNavigator2App.swift */,
+				63B047D528B1586C003082A3 /* Views */,
+				63B047D628B15872003082A3 /* ViewModels */,
+				63B047D728B1587E003082A3 /* Models */,
+				63B047D928B1589C003082A3 /* Services */,
+				63B047D828B15891003082A3 /* Data */,
+				63B047CB28B1585E003082A3 /* Assets.xcassets */,
+				63B047CD28B1585E003082A3 /* Preview Content */,
+			);
+			path = RallyNavigator2;
+			sourceTree = "<group>";
+		};
+		63B047CD28B1585E003082A3 /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				63B047CE28B1585E003082A3 /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		63B047D528B1586C003082A3 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				6386E8C828B230940095F5EE /* RallyTabView.swift */,
+				63B047C928B1585D003082A3 /* RallyListView.swift */,
+				6386E8CA28B231C70095F5EE /* RallyAddView.swift */,
+				6386E8CC28B2337A0095F5EE /* SettingsView.swift */,
+				63B047E028B15A30003082A3 /* RallyCardView.swift */,
+				63EA92AE28B175BF0062FF3D /* MapView.swift */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		63B047D628B15872003082A3 /* ViewModels */ = {
+			isa = PBXGroup;
+			children = (
+				63EA92AC28B15B960062FF3D /* RallyModel.swift */,
+			);
+			path = ViewModels;
+			sourceTree = "<group>";
+		};
+		63B047D728B1587E003082A3 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				63B047DE28B159AB003082A3 /* Rally.swift */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		63B047D828B15891003082A3 /* Data */ = {
+			isa = PBXGroup;
+			children = (
+				63B047DA28B158BC003082A3 /* data.json */,
+			);
+			path = Data;
+			sourceTree = "<group>";
+		};
+		63B047D928B1589C003082A3 /* Services */ = {
+			isa = PBXGroup;
+			children = (
+				63B047DC28B15968003082A3 /* DataService.swift */,
+			);
+			path = Services;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		63B047C328B1585D003082A3 /* RallyNavigator2 */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 63B047D228B1585E003082A3 /* Build configuration list for PBXNativeTarget "RallyNavigator2" */;
+			buildPhases = (
+				63B047C028B1585D003082A3 /* Sources */,
+				63B047C128B1585D003082A3 /* Frameworks */,
+				63B047C228B1585D003082A3 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = RallyNavigator2;
+			productName = RallyNavigator2;
+			productReference = 63B047C428B1585D003082A3 /* RallyNavigator2.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		63B047BC28B1585D003082A3 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1340;
+				LastUpgradeCheck = 1340;
+				TargetAttributes = {
+					63B047C328B1585D003082A3 = {
+						CreatedOnToolsVersion = 13.4.1;
+					};
+				};
+			};
+			buildConfigurationList = 63B047BF28B1585D003082A3 /* Build configuration list for PBXProject "RallyNavigator2" */;
+			compatibilityVersion = "Xcode 13.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 63B047BB28B1585D003082A3;
+			productRefGroup = 63B047C528B1585D003082A3 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				63B047C328B1585D003082A3 /* RallyNavigator2 */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		63B047C228B1585D003082A3 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				63B047CF28B1585E003082A3 /* Preview Assets.xcassets in Resources */,
+				63B047DB28B158BD003082A3 /* data.json in Resources */,
+				63B047CC28B1585E003082A3 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		63B047C028B1585D003082A3 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				63EA92AF28B175BF0062FF3D /* MapView.swift in Sources */,
+				63B047E128B15A30003082A3 /* RallyCardView.swift in Sources */,
+				63B047DD28B15968003082A3 /* DataService.swift in Sources */,
+				6386E8C928B230940095F5EE /* RallyTabView.swift in Sources */,
+				6386E8CB28B231C70095F5EE /* RallyAddView.swift in Sources */,
+				6386E8CD28B2337A0095F5EE /* SettingsView.swift in Sources */,
+				63B047CA28B1585D003082A3 /* RallyListView.swift in Sources */,
+				63B047DF28B159AC003082A3 /* Rally.swift in Sources */,
+				63EA92AD28B15B960062FF3D /* RallyModel.swift in Sources */,
+				63B047C828B1585D003082A3 /* RallyNavigator2App.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		63B047D028B1585E003082A3 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.5;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		63B047D128B1585E003082A3 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.5;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		63B047D328B1585E003082A3 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"RallyNavigator2/Preview Content\"";
+				DEVELOPMENT_TEAM = P5LM23L9KQ;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.scottmcnally.RallyNavigator2;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		63B047D428B1585E003082A3 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"RallyNavigator2/Preview Content\"";
+				DEVELOPMENT_TEAM = P5LM23L9KQ;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.scottmcnally.RallyNavigator2;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		63B047BF28B1585D003082A3 /* Build configuration list for PBXProject "RallyNavigator2" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				63B047D028B1585E003082A3 /* Debug */,
+				63B047D128B1585E003082A3 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		63B047D228B1585E003082A3 /* Build configuration list for PBXNativeTarget "RallyNavigator2" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				63B047D328B1585E003082A3 /* Debug */,
+				63B047D428B1585E003082A3 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 63B047BC28B1585D003082A3 /* Project object */;
+}

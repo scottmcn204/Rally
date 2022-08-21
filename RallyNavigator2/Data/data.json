@@ -1,0 +1,30 @@
+[
+    {
+        "name" : "Donegal Rally",
+        "date" : "08/12",
+        "coordinates" : {
+            "latitude" : 54.932527,
+            "longitude" : -7.930858
+        },
+        "note": "100 Comp -> Fast4L/C<85L + \n Danger smC + Lg3L@Yellow Box / (S.I.W) \n L.2 40 | Late HpR | + 2L + bmp Brg 2R \n + 5R/Comp -› Lg5R/Bad bmps Bre 40^"
+    },
+    {
+        "name" : "Antrim Rally",
+        "date" : "12/04",
+        "coordinates" : {
+            "latitude" : 54.598957,
+            "longitude" : -5.926187
+        },
+        "note": "100 Comp -> Fast4L/C<85L + \n Danger smC + Lg3L@Yellow Box / (S.I.W) \n L.2 40 | Late HpR | + 2L + bmp Brg 2R \n + 5R/Comp -› Lg5R/Bad bmps Bre 40^"
+    },
+    {
+        "name" : "Wexford Town Rally",
+        "date" : "15/01",
+        "coordinates" : {
+            "latitude" : 52.344761,
+            "longitude" : -6.478048
+        },
+        "note": "100 Comp -> Fast4L/C<85L + \n Danger smC + Lg3L@Yellow Box / (S.I.W) \n L.2 40 | Late HpR | + 2L + bmp Brg 2R \n + 5R/Comp -› Lg5R/Bad bmps Bre 40^"
+    }
+]
+
